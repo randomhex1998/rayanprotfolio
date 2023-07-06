@@ -1,4 +1,6 @@
 import React from "react";
+import Lottie from "lottie-react";
+import anm from "../../assets/118972-scroll-button.json";
 
 const HeroContent = () => {
   return (
@@ -13,6 +15,7 @@ const HeroContent = () => {
         front field. I am interested in teamwork and this interest makes me help
         to achieve team goals and play an effective role
       </p>
+      <Lottie className="w-[150px] mt-10 bg-transparent" animationData={anm} loop={true} />
     </div>
   );
 };
