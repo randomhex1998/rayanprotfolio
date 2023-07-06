@@ -1,5 +1,5 @@
-const title = ({ children }) => {
-  return <h2>{children}</h2>;
+const Titles = ({ children }) => {
+  return <h2 className="font-extrabold text-4xl">{children}</h2>;
 };
 
-export default { title };
+export default  Titles ;
