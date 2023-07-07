@@ -1,7 +1,7 @@
 import React from "react";
 
-let activeMobile = "fixed top-[80px] py-5 left-0 right-0 text-center flex flex-col gap-6 bg-[#222] transition-all opacity-100";
-let dectiveMobile = "fixed top-[80px] py-5 left-0 right-0 text-center flex flex-col gap-6 bg-[#222] transition-all opacity-0";
+let activeMobile = "fixed top-[80px] py-5 left-0 right-0 text-center flex flex-col gap-6 bg-[#222] transition-all opacity-100 flex";
+let dectiveMobile = "fixed top-[80px] py-5 left-0 right-0 text-center flex flex-col gap-6 bg-[#222] transition-all opacity-0 hidden";
 
 const MobileMenu = ({burger}) => {
   return (
