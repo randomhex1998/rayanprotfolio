@@ -28,14 +28,11 @@ function Portfolio() {
           value={inp}
         />
 
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {searched.map((item) => (
-            <Link to={`/portfolio/${item.id}`}>
-              <div
-                key={item.id}
-                className="relative overflow-hidden rounded-xl"
-              >
-                <img src={logoProject} alt={item.Title} />
+            <Link to={`/portfolio/${item.id}`} key={item.id}>
+              <div className="relative overflow-hidden rounded-xl">
+                <img src={item.Img} alt={item.Title} />
                 <div className="absolute top-0 left-0 bottom-0 right-0 bg-gradient-to-b to-[#004059af] from-[#cd4b90af] flex justify-center items-center">
                   <h2 className="text-white font-bold text-2xl">
                     {item.Title}
