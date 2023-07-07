@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { CiMenuFries } from "react-icons/ci";
 
-import Menu from "../Menu";
+import Menu from "./Menu";
 import Logo from "./Logo";
 import MobileMenu from "./MobileMenu";
 

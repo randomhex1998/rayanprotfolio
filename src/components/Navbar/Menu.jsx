@@ -1,22 +1,26 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
     <ul className="hidden gap-8 md:flex">
       <li>
-        <a href="#" className="hover:text-[#03df83] text-white transition">
+        <NavLink to="/" className="hover:text-[#03df83] text-white transition">
           Home
-        </a>
+        </NavLink>
       </li>
       <li>
-        <a href="#" className="hover:text-[#03df83] text-white transition">
+        <NavLink
+          to="/portfolio"
+          className="hover:text-[#03df83] text-white transition"
+        >
           Portfolio
-        </a>
+        </NavLink>
       </li>
       <li>
-        <a href="#" className="hover:text-[#03df83] text-white transition">
+        <NavLink to="/resume" className="hover:text-[#03df83] text-white transition">
           Resume
-        </a>
+        </NavLink>
       </li>
       <li>
         <a href="#" className="hover:text-[#03df83] text-white transition">
