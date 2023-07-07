@@ -1,13 +1,12 @@
 import React, { useRef, useState } from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 
-// import './styles.css';
-
+//icons
 import { TbBrandJavascript } from "react-icons/tb";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
