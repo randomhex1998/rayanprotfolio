@@ -18,7 +18,7 @@ import { DiSass } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import SlideSwiper from "./SlideSwiper";
 
 export default function App() {
@@ -27,8 +27,9 @@ export default function App() {
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        pagination={{
-          clickable: true,
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
         }}
         breakpoints={{
           "@0.00": {
@@ -48,7 +49,7 @@ export default function App() {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
