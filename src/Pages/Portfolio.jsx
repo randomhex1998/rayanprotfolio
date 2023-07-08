@@ -33,7 +33,7 @@ function Portfolio() {
             <Link to={`/portfolio/${item.id}`} key={item.id}>
               <div className="relative overflow-hidden rounded-xl">
                 <img src={item.Img} alt={item.Title} />
-                <div className="absolute top-0 left-0 bottom-0 right-0 bg-gradient-to-b to-[#004059af] from-[#cd4b90af] flex justify-center items-center">
+                <div className="absolute top-0 left-0 bottom-0 right-0 bg-[#000000b7] flex justify-center items-center">
                   <h2 className="text-white font-bold text-2xl">
                     {item.Title}
                   </h2>
