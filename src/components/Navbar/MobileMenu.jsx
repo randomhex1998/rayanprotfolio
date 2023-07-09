@@ -18,11 +18,6 @@ const MobileMenu = ({burger}) => {
       </li>
       <li>
         <a href="#" className="hover:text-[#03df83] text-white transition">
-          Resume
-        </a>
-      </li>
-      <li>
-        <a href="#" className="hover:text-[#03df83] text-white transition">
           Contact
         </a>
       </li>

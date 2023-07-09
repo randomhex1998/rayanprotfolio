@@ -1,0 +1,51 @@
+[
+  {
+    id: 1,
+    title: "Network Plus",
+    unq: "-",
+    link: "-",
+    cat: "network",
+    from: "Tossinso",
+  },
+  {
+    id: 2,
+    title: "Html",
+    unq: "CT-W6IZULPY",
+    link: "https://www.sololearn.com/certificates/CT-W6IZULPY",
+    cat: "web",
+    from: "SoloLearn",
+  },
+  {
+    id: 3,
+    title: "Css",
+    unq: "CT-FUWP2ISJ",
+    link: "https://www.sololearn.com/certificates/CT-FUWP2ISJ",
+    cat: "web",
+    from: "SoloLearn",
+  },
+
+  {
+    id: 4,
+    title: "Introduction to JavaScript",
+    unq: "CC-SKVLNOXD",
+    link: "https://www.sololearn.com/certificates/CC-SKVLNOXD",
+    cat: "web",
+    from: "SoloLearn",
+  },
+  {
+    id: 5,
+    title: "JavaScript Intermediate",
+    unq: "CC-FX7HVBYJ",
+    link: "https://www.sololearn.com/certificates/CC-FX7HVBYJ",
+    cat: "web",
+    from: "SoloLearn",
+  },
+  {
+    id: 6,
+    title: "JavaScript Intermediate",
+    unq: "CC-FX7HVBYJ",
+    link: "https://www.sololearn.com/certificates/CC-FX7HVBYJ",
+    cat: "web",
+    from: "SoloLearn",
+  },
+];

@@ -18,11 +18,6 @@ const Menu = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/resume" className="hover:text-[#03df83] text-white transition">
-          Resume
-        </NavLink>
-      </li>
-      <li>
         <a href="#" className="hover:text-[#03df83] text-white transition">
           Contact
         </a>
