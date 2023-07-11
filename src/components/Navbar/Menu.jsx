@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -18,9 +18,12 @@ const Menu = () => {
         </NavLink>
       </li>
       <li>
-        <a href="#" className="hover:text-[#03df83] text-white transition">
+        <NavLink
+          to="/contact"
+          className="hover:text-[#03df83] text-white transition"
+        >
           Contact
-        </a>
+        </NavLink>
       </li>
     </ul>
   );

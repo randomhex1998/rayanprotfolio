@@ -1,8 +1,13 @@
 import React, { useState } from "react";
+
+//components
+import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
-import pr from "../assets/pr.jpeg";
+
+//json data
 import data from "../data";
-import logoProject from "../assets/portfolio/logoProject.jpg";
+
+//Link Router
 import { Link } from "react-router-dom";
 
 function Portfolio() {
@@ -13,13 +18,9 @@ function Portfolio() {
   );
 
   return (
-    <div>
+    <div className="h-[95vh]">
       <Navbar />
-      {/* <div
-        className="w-full h-[80vh]"
-        style={{ backgroundImage: `url(${pr})`, backgroundSize: "cover" }}
-      ></div> */}
-      <div className="container mx-auto">
+      <div className="container mx-auto py-20">
         <input
           type="text"
           className="px-2 border border-gray-300 outline-none w-full h-[45px] rounded-lg my-8"
@@ -43,6 +44,7 @@ function Portfolio() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

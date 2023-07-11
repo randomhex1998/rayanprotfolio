@@ -9,7 +9,7 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   const [burger, setBurger] = useState(false);
   return (
-    <nav className="bg-[#222] px-2">
+    <nav className="sticky top-0 bg-[#222] px-2 z-50">
       <div className="container mx-auto h-[80px] flex justify-between items-center">
         <Logo />
         <Menu />

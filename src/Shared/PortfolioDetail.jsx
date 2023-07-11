@@ -12,7 +12,7 @@ function ProjectDetail() {
   const dd = data[id.id - 1];
   const { Title, Img, Desc, Techs, Src, Demo } = dd;
   return (
-    <div className="flex justify-center items-center w-full">
+    <div className="flex justify-center items-center w-full h-[95vh]">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-20">
           <div className="md:col-span-2 overflow-hidden rounded-xl">
